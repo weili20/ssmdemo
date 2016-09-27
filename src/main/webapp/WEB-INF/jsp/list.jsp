@@ -16,8 +16,7 @@
 				<td>${book.bookId}</td>
 				<td>${book.name}</td>
 				<td>${book.number}</td>
-				<td><a href="<%=basePath%>book/${book.bookId}/detail">查看明细</a>&nbsp;|&nbsp;
-					<a href="<%=basePath%>book/${book.bookId}/appoint/add">预约此书</a></td>
+				<td><a href="<%=basePath%>book/${book.bookId}/detail">查看明细</a>|<a href="<%=basePath%>book/${book.bookId}/appoint/add">预约此书</a></td>
 			</tr>
 		</c:forEach>
 	</table>

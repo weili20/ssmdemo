@@ -58,7 +58,7 @@ public class BookController {
 		if (book == null) {
 			return "forward:/book/list";
 		} else if(book.getNumber()<1) {
-			model.addAttribute("state", AppointStateEnum.NO_NUMBER);
+			model.addAttribute("appointExecution", new AppointExecution(bookId, AppointStateEnum.NO_NUMBER));
 			return "appointResult";
 		}
 		model.addAttribute("book", book);

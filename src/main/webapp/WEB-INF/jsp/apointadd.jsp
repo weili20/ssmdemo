@@ -15,7 +15,7 @@
 			<td><input type="text" name="studentId" /></td>
 		</tr>
 	</table>
-	<input type="submit" value="现在预约"/>
+	<input type="submit" value="现在预约"/>|<input type="button" value="返回列表" onclick="javascript: document.location.href='<%=basePath%>book/list';"/>
 	</form>
 </body>
 </html>
