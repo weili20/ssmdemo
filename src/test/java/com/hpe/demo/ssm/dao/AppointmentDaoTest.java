@@ -4,12 +4,13 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.hpe.demo.ssm.BaseTest;
-import com.hpe.demo.ssm.entity.Appointment;
+import com.hpe.demo.ssm.mapper.AppointmentMapper;
+import com.hpe.demo.ssm.po.Appointment;
 
 public class AppointmentDaoTest extends BaseTest {
 
 	@Autowired
-	private AppointmentDao appointmentDao;
+	private AppointmentMapper appointmentDao;
 
 	@Test
 	public void testInsertAppointment() throws Exception {

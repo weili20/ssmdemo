@@ -1,12 +1,12 @@
-package com.hpe.demo.ssm.dao;
+package com.hpe.demo.ssm.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.hpe.demo.ssm.entity.Book;
+import com.hpe.demo.ssm.po.Book;
 
-public interface BookDao {
+public interface BookMapper {
 
 	/**
 	 * 通过ID查询单本图书

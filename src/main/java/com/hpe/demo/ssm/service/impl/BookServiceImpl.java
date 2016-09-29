@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.hpe.demo.ssm.dao.AppointmentDao;
-import com.hpe.demo.ssm.dao.BookDao;
 import com.hpe.demo.ssm.dto.AppointExecution;
-import com.hpe.demo.ssm.entity.Appointment;
-import com.hpe.demo.ssm.entity.Book;
 import com.hpe.demo.ssm.enums.AppointStateEnum;
 import com.hpe.demo.ssm.exception.AppointException;
+import com.hpe.demo.ssm.mapper.AppointmentMapper;
+import com.hpe.demo.ssm.mapper.BookMapper;
+import com.hpe.demo.ssm.po.Appointment;
+import com.hpe.demo.ssm.po.Book;
 import com.hpe.demo.ssm.service.BookService;
 
 @Service
@@ -24,10 +24,10 @@ public class BookServiceImpl implements BookService {
 
 	// 注入Service依赖
 	@Autowired
-	private BookDao bookDao;
+	private BookMapper bookDao;
 
 	@Autowired
-	private AppointmentDao appointmentDao;
+	private AppointmentMapper appointmentDao;
 
 
 	@Override

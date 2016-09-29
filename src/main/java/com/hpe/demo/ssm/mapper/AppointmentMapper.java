@@ -1,10 +1,10 @@
-package com.hpe.demo.ssm.dao;
+package com.hpe.demo.ssm.mapper;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.hpe.demo.ssm.entity.Appointment;
+import com.hpe.demo.ssm.po.Appointment;
 
-public interface AppointmentDao {
+public interface AppointmentMapper {
 
 	/**
 	 * 插入预约图书记录

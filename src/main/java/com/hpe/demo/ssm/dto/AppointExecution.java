@@ -1,7 +1,7 @@
 package com.hpe.demo.ssm.dto;
 
-import com.hpe.demo.ssm.entity.Appointment;
 import com.hpe.demo.ssm.enums.AppointStateEnum;
+import com.hpe.demo.ssm.po.Appointment;
 
 /**
  * 封装预约执行后结果

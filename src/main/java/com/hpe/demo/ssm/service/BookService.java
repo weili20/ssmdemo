@@ -3,8 +3,8 @@ package com.hpe.demo.ssm.service;
 import java.util.List;
 
 import com.hpe.demo.ssm.dto.AppointExecution;
-import com.hpe.demo.ssm.entity.Book;
 import com.hpe.demo.ssm.exception.AppointException;
+import com.hpe.demo.ssm.po.Book;
 
 /**
  * 业务接口：站在"使用者"角度设计接口 三个方面：方法定义粒度，参数，返回类型（return 类型/异常）

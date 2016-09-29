@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.hpe.demo.ssm.dto.AppointExecution;
-import com.hpe.demo.ssm.entity.Book;
 import com.hpe.demo.ssm.enums.AppointStateEnum;
 import com.hpe.demo.ssm.exception.AppointException;
+import com.hpe.demo.ssm.po.Book;
 import com.hpe.demo.ssm.service.BookService;
 
 @Controller

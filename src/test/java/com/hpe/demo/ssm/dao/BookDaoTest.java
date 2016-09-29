@@ -6,12 +6,13 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.hpe.demo.ssm.BaseTest;
-import com.hpe.demo.ssm.entity.Book;
+import com.hpe.demo.ssm.mapper.BookMapper;
+import com.hpe.demo.ssm.po.Book;
 
 public class BookDaoTest extends BaseTest {
 
 	@Autowired
-	private BookDao bookDao;
+	private BookMapper bookDao;
 
 	@Test
 	public void testQueryById() throws Exception {

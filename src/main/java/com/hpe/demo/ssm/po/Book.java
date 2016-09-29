@@ -1,4 +1,4 @@
-package com.hpe.demo.ssm.entity;
+package com.hpe.demo.ssm.po;
 
 /**
  * 图书实体
