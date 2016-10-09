@@ -19,7 +19,7 @@ import com.hpe.demo.ssm.po.Book;
 import com.hpe.demo.ssm.service.BookService;
 
 @Controller
-@RequestMapping("/book") // url:/模块/资源/{id}/细分 /seckill/list
+@RequestMapping("/book")
 public class BookController {
 
 	@SuppressWarnings("unused")
